@@ -30,7 +30,7 @@ p {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .section {
@@ -51,11 +51,11 @@ p {
 .nav-items {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .nav-list {
   display: flex;
-  padding: 24px 0;
 }
 .nav-list > li:not(:last-child) {
   margin-right: 40px;
@@ -169,7 +169,7 @@ p {
   display: flex;
   gap: 24px;
 }
-.feauters-item:first-child {
+.feauters-item {
   width: calc((100% - 72px) / 4);
 }
 .feauters-core-tittle {
